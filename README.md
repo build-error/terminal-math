@@ -40,6 +40,24 @@ $\int_{-\infty}^{\infty} e^{-x^2}\,dx = \sqrt{\pi}$
 </tr>
 </table>
 
+## See it in action
+
+A real Claude Code session using the skill, asked to *"derive the Gaussian integral using the polar coordinates trick, step by step"*:
+
+<p align="center">
+  <img src="assets/gaussian-1.png" alt="Claude Code drawing the Gaussian integral and squaring it with terminal-math" width="720">
+</p>
+
+<details>
+<summary>See the full derivation (polar coordinates, Jacobian, final result)</summary>
+<br>
+<p align="center">
+  <img src="assets/gaussian-2.png" alt="Double integral, polar substitution, and Jacobian determinant" width="720">
+  <img src="assets/gaussian-3.png" alt="Separating the integrals and evaluating the radial part" width="720">
+  <img src="assets/gaussian-4.png" alt="Final result: the integral equals the square root of pi" width="720">
+</p>
+</details>
+
 ## Features
 
 - **Automatic:** kicks in whenever a reply contains math, with no command needed
